@@ -54,23 +54,11 @@ h3 {
   font-weight: var(--font-weight-black);
 }
 
-@media screen and (min-width: 768px) {
-  .panel {
-    max-width: 740px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .panel {
-    max-width: 1000px;
-  }
-}
-
 /* PANEL */
 .panel {
   max-width: 340px;
   margin: 5rem auto;
-  width: 90VW;
+  width: 90vw;
 }
 
 @media screen and (min-width: 768px) {
@@ -110,9 +98,8 @@ h3 {
 }
 
 .request__title {
-  flex: 1; /* This will make the title take up remaining space */
+  flex: 1;
 }
-
 
 .request__number {
   font-size: 1.8rem;
@@ -147,11 +134,11 @@ h3 {
   margin-left: 1rem;
 }
 
-.request__btn{
+.request__btn {
   outline: 0;
   border: none;
   background-color: var(--color-primary);
-  padding: 1.5rem ;
+  padding: 1.5rem;
   color: var(--color-white);
   border-radius: var(--border-radius-large);
 }
